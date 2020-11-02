@@ -12,7 +12,7 @@ terraform {
   }
 }
 
-resource "azurerm_resource_group" "rg-hello-azure" {
-  name     = "rg-hello-azure"
+resource "azurerm_resource_group" "rg-azure-terraform" {
+  name     = "rg-azure-terraform"
   location = "westeurope"
-}.
+}
